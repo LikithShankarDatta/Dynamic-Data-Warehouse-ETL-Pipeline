@@ -38,7 +38,11 @@ No transformations happen here
 
 Daily snapshot files are generated using SQL joins and stored as pipe-delimited CSVs:
 
-/opt/airflow/data_extracts/ ├── incoming/ │ └── sales_snapshot_YYYYMMDD_HHMM.csv ├── current/ ├── archive/
+/opt/airflow/data_extracts/ 
+            ├── incoming/ 
+            │ └── sales_snapshot_YYYYMMDD_HHMM.csv 
+            ├── current/ 
+            ├── archive/
 
 Why files?
 
@@ -170,7 +174,16 @@ Fail-fast on data issues
 
 Fully automated (no manual runs required)
 
-📦 Technologies Used Category | Tools Database | Oracle Database Orchestration | Apache Airflow Language | Python Libraries | pandas, oracledb Containerization | Docker Scheduling Cron via Airflow ▶️ How to Run the Project 1️⃣ Start Airflow docker-compose up -d
+📦 Technologies Used 
+Category | Tools 
+Database | Oracle Database
+Orchestration | Apache Airflow
+Language | Python 
+Libraries | pandas, oracledb 
+Containerization | Docker 
+Scheduling Cron via Airflow 
+▶️ How to Run the Project 
+1️⃣ Start Airflow docker-compose up -d
 
 2️⃣ Verify Containers docker ps
 
