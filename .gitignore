@@ -1,12 +1,5 @@
-# Python virtual environment
-.venv/
-
-# Environment variables
-.env
-
-# Airflow logs
-logs/
-
-# Python cache
-__pycache__/
-*.pyc
+/dim_date_daily.py
+/dim_distributor_daily.py
+/dim_product_daily.py
+/dim_store_daily.py
+/fact_sales_daily.py
